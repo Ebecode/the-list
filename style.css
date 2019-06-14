@@ -101,6 +101,7 @@ ul,
 li {
   background-color: #fff;
 }
+
 li {
   list-style: none;
   padding: 1rem 2rem;
@@ -117,12 +118,14 @@ li i {
 }
 li .check i:hover {
   color: green;
+  cursor: pointer;
 }
 li i.fa-times {
   justify-self: flex-end;
 }
 li i.fa-times:hover {
   color: red;
+  cursor: pointer;
 }
 li.done {
   background-color: #c8f7c5;
