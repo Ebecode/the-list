@@ -46,13 +46,10 @@ function rmTask(itm) {
 
 //Event listeners
 
-//in the header
-// take an input
-// if input value contains alphanumeric
 
 // on click or enter key
 addTask.addEventListener("click", e => {
-  let currentVal = input.value.trim(); //trim whitespace later
+  let currentVal = input.value.trim();
   if (currentVal) {
     listItem(currentVal);
     input.value = "";
